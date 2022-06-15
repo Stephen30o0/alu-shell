@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#script that displays the hours of the day and minutes inbetween
+TIME=0
+while((TIME<=12));do
+	echo "Hour: $TIME"
+	HOUR=1
+	while((HOUR<=59));do
+		echo "$HOUR"
+		((HOUR++))
+	done;
+((TIME++))
+done;
