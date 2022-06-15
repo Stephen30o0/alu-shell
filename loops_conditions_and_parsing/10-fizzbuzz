@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #script to add words at different multiple while counting to 100
 NUMBER=1
-COUNT=1
 while((NUMBER<=100));do
 	if [  "$((NUMBER%3))" -eq 0  ] &&  [ "$((NUMBER%5))" -eq 0  ] ;then
 		echo "FizzBuzz"
