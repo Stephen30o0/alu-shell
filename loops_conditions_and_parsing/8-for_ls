@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#script to list the part of files after the first dash in the current directory
+FILES="$(ls)"
+for i in $FILES;
+do
+	CONTENT=$(find . -maxdepth 1 -name "$i" |cut -d "/" -f2 | cut -d "-" -f2)
+	echo "$CONTENT"
+done
