@@ -9,7 +9,7 @@ while((NUMBER<=100));do
 	elif [ "$((NUMBER%5))" -eq 0 ] ;then
 		echo "Buzz"
 	else 
-		echo "$COUNT"
+		echo "$NUMBER"
 	fi
 ((NUMBER++))
 done;
