@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#script thast displays numbers from 1-20 and sentences after particular numbers using while loop and case statement
+NUMBER=1
+while((NUMBER<=20));do
+	echo "$NUMBER"
+	case $NUMBER in
+		4) echo "bad luck from Chine"
+			;;
+		9) echo "bad luck from Japan"
+			;;
+		17) echo "bad luch from Italy"
+			;;
+	esac
+((NUMBER++))
+done;
