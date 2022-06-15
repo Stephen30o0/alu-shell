@@ -2,7 +2,7 @@
 #Script to display Best school 10 times using while loop and a "Hi" after the 9th
 NUMBER=10
 while((NUMBER>0));do
-	echo "Best SChool"
+	echo "Best School"
 	if [ "$NUMBER" -eq 2 ] ;then
 		echo "Hi"
 	fi
