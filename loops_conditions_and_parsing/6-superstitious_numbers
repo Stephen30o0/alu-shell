@@ -4,7 +4,7 @@ NUMBER=1
 while((NUMBER<=20));do
 	echo "$NUMBER"
 	case $NUMBER in
-		4) echo "bad luck from Chine"
+		4) echo "bad luck from China"
 			;;
 		9) echo "bad luck from Japan"
 			;;
