@@ -1,6 +1,6 @@
 #!/usr/bin/env bash 
 #script to display some text in a loopp
-function catchKill(){
+function killMaybe(){
 	echo "I am invincible!!!"
 }
 
@@ -8,5 +8,5 @@ while true
 do
 	echo "To infinity and beyond"
 	sleep 2
-	trap catchKill SIGTERM	
+	trap killMaybe SIGTERM	
 done
