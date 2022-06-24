@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-#script to kill a script without using bash
-<<<<<<< HEAD
-=======
-
->>>>>>> de194dcee4ff4a8edefe0dcfeb61fadaac878489
-pkill -f 4-to_infinity_and_beyond

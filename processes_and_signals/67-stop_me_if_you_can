@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-#script to killa particular process
-<<<<<<< HEAD
-pkill -f 7-highlanderr
-=======
-pkill -f 7-highlander
->>>>>>> de194dcee4ff4a8edefe0dcfeb61fadaac878489
