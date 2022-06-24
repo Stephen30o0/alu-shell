@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-#script that displays the bash word to get PID of bash process
-# shellcheck disable=SC2009
-ps aux | grep bash
