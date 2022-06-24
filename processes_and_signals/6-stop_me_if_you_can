@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#scritp looks for a particular process to kill it without using kill or kill all
+pkill -f './4-to_infinity_and_beyond'
