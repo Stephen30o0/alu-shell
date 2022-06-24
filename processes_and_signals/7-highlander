@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#script to display text indefinitely and another when recieving a sigterm
+function Killall(){
+	echo "I am invincible!!!"
+}
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap Killall SIGTERM	
+done
